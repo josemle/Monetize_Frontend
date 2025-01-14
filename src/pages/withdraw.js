@@ -61,6 +61,8 @@ export default function Withdraw() {
         }
     };
 
+    // Connect To Wallet
+
     const connectWallet = async () => {
         if (!checkIfWalletIsConnected()) {
             return;
@@ -79,6 +81,8 @@ export default function Withdraw() {
             console.log(error);
         }
     };
+
+    // Handle Withdraw Payment from contract
 
     const handleWithdraw = async () => {
         const { abi } = Contract;
