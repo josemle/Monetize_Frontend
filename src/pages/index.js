@@ -129,6 +129,8 @@ export default function Home() {
         web3.current.eth.getBlock('latest').then((block) => console.log(block))
     }, [])
 
+    // Connect To Wallet
+
     const connectWallet = async () => {
         if (!checkIfWalletIsConnected()) {
             return
@@ -147,6 +149,8 @@ export default function Home() {
             console.log(error)
         }
     }
+
+    // Handle Start Partnership Deploy contract with details about partners
 
     const handleStartPartnership = async () => {
         const addresses = [partners[0].address, partners[1].address]
