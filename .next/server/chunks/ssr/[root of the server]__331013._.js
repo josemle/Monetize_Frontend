@@ -297,6 +297,7 @@ function Home() {
         ];
         const { abi, bytecode } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$contract$2f$Contract$2e$json__$28$json$29$__["default"];
         const contract = new web3.current.eth.Contract(abi);
+        console.log(contract);
         const contractDeploymentData = {
             data: bytecode,
             arguments: contractArguments
@@ -362,7 +363,7 @@ function Home() {
             }
         }, partner.label, false, {
             fileName: "[project]/src/pages/index.js",
-            lineNumber: 194,
+            lineNumber: 195,
             columnNumber: 13
         }, this);
     });
@@ -382,7 +383,7 @@ function Home() {
                         children: "Congratulations!"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.js",
-                        lineNumber: 248,
+                        lineNumber: 249,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -394,7 +395,7 @@ function Home() {
                                     "Your contract is now deployed at this address. ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/pages/index.js",
-                                        lineNumber: 254,
+                                        lineNumber: 255,
                                         columnNumber: 76
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -402,13 +403,13 @@ function Home() {
                                         children: "You should write it down."
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/index.js",
-                                        lineNumber: 255,
+                                        lineNumber: 256,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/index.js",
-                                lineNumber: 253,
+                                lineNumber: 254,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -416,7 +417,7 @@ function Home() {
                                 children: deployedContractAddress
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/index.js",
-                                lineNumber: 257,
+                                lineNumber: 258,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -424,7 +425,7 @@ function Home() {
                                 children: "Any payment made to this address will be split in between you and your partner when withdrawn."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/index.js",
-                                lineNumber: 260,
+                                lineNumber: 261,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -434,29 +435,29 @@ function Home() {
                                     onClick: handleConfirm
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/index.js",
-                                    lineNumber: 265,
+                                    lineNumber: 266,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/index.js",
-                                lineNumber: 264,
+                                lineNumber: 265,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/index.js",
-                        lineNumber: 252,
+                        lineNumber: 253,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/index.js",
-                lineNumber: 247,
+                lineNumber: 248,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/index.js",
-            lineNumber: 246,
+            lineNumber: 247,
             columnNumber: 13
         }, this);
     }
@@ -470,7 +471,7 @@ function Home() {
                     children: "Partnerly"
                 }, void 0, false, {
                     fileName: "[project]/src/pages/index.js",
-                    lineNumber: 279,
+                    lineNumber: 280,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -481,7 +482,7 @@ function Home() {
                             children: "Partnerly creates a smart contract for you and your partner that distributes the payments to the partnership contract in a predetermined split ratio."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/index.js",
-                            lineNumber: 283,
+                            lineNumber: 284,
                             columnNumber: 21
                         }, this),
                         hasWalletWarning && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -489,7 +490,7 @@ function Home() {
                             children: "You will need Metamask or equivalent to use this app."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/index.js",
-                            lineNumber: 289,
+                            lineNumber: 290,
                             columnNumber: 25
                         }, this),
                         !currentAccount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -499,18 +500,18 @@ function Home() {
                                 label: 'Connect Wallet'
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/index.js",
-                                lineNumber: 295,
+                                lineNumber: 296,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/index.js",
-                            lineNumber: 294,
+                            lineNumber: 295,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/index.js",
-                    lineNumber: 282,
+                    lineNumber: 283,
                     columnNumber: 17
                 }, this),
                 currentAccount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -518,7 +519,7 @@ function Home() {
                     children: addressInputs
                 }, void 0, false, {
                     fileName: "[project]/src/pages/index.js",
-                    lineNumber: 301,
+                    lineNumber: 302,
                     columnNumber: 21
                 }, this),
                 currentAccount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -530,28 +531,28 @@ function Home() {
                             label: isDeploying ? 'Deploying' : 'Partner Up!'
                         }, void 0, false, {
                             fileName: "[project]/src/pages/index.js",
-                            lineNumber: 307,
+                            lineNumber: 308,
                             columnNumber: 29
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.js",
-                        lineNumber: 306,
+                        lineNumber: 307,
                         columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/index.js",
-                    lineNumber: 305,
+                    lineNumber: 306,
                     columnNumber: 21
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/index.js",
-            lineNumber: 278,
+            lineNumber: 279,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/index.js",
-        lineNumber: 277,
+        lineNumber: 278,
         columnNumber: 9
     }, this);
 }

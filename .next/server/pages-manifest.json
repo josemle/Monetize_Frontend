@@ -1,6 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/withdraw": "pages/withdraw.js"
+  "/": "pages/index.js"
 }

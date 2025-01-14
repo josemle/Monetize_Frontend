@@ -155,6 +155,7 @@ export default function Home() {
 
         const { abi, bytecode } = Contract
         const contract = new web3.current.eth.Contract(abi)
+        console.log(contract)
 
         const contractDeploymentData = {
             data: bytecode,
