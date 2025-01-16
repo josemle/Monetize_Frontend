@@ -21,6 +21,8 @@ function MainButton({ onClick, disabled, label }) {
     )
 }
 
+// AddressInput
+
 function AddressInput({ id, label, value, onChange, onBlur, error }) {
     return (
         <div className="flex flex-col">
