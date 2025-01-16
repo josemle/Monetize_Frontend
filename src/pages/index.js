@@ -65,6 +65,8 @@ function SplitInput({ id, value, onChange }) {
     )
 }
 
+//PartnershipInput
+
 function PartnerInput({ address, split }) {
     return (
         <div className={'flex'}>
