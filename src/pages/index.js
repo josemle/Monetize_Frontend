@@ -115,6 +115,8 @@ export default function Home() {
         },
     ])
 
+    // Check if wallet is connected
+
     const checkIfWalletIsConnected = () => {
         return Boolean(window.ethereum)
     }
