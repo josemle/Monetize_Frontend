@@ -45,6 +45,8 @@ function AddressInput({ id, label, value, onChange, onBlur, error }) {
     )
 }
 
+//SplitInput
+
 function SplitInput({ id, value, onChange }) {
     return (
         <div className="flex flex-col">
