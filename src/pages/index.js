@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from 'react'
 
 import Contract from '../contract/Contract'
 
+// MainButton
+
 function MainButton({ onClick, disabled, label }) {
     return (
         <button
