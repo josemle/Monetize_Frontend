@@ -1,5 +1,7 @@
 import React from "react";
 
+// MainButton
+
 export function MainButton({ onClick, disabled, label }) {
   return (
     <button
