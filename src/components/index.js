@@ -62,6 +62,8 @@ export function SplitInput({ name, value, onChange }) {
   );
 }
 
+// PartnerInput
+
 export function PartnerInput({ address, split }) {
   return (
     <div className={"flex"}>
