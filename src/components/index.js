@@ -18,6 +18,8 @@ export function MainButton({ onClick, disabled, label }) {
   );
 }
 
+// AddressInput 
+
 export function AddressInput({ label, value, onChange, onBlur, error }) {
   return (
     <div className="flex flex-col">
