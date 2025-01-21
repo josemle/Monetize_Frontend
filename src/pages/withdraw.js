@@ -35,9 +35,13 @@ export default function Withdraw() {
         getAuthorizedAccount();
     }, []);
 
+    // check if wallet is connected
+
     const checkIfWalletIsConnected = () => {
         return Boolean(window.ethereum);
     };
+
+    // 
 
     const getAuthorizedAccount = async () => {
         if (!checkIfWalletIsConnected()) {
