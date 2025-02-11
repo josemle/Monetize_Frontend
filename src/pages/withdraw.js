@@ -4,6 +4,7 @@ import Web3 from "web3";
 import Contract from "../contract/Contract";
 import { MainButton, AddressInput } from "../components";
 
+// Withdraw Function
 export default function Withdraw() {
     const web3 = useRef(null);
 
